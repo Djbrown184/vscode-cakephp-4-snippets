@@ -11,6 +11,30 @@
         "body": "echo \\$this->Flash->error('${1:Message}');$0",
         "description":"CakePHP: $this->Flash->error()"
     },
+    "link": {
+        "scope": "php",
+        "prefix": "link",
+        "body":"echo \\$this->Html->link('${1:link}',['controller'=>'${2:controller}', 'action'=>'${3:action}','prefix'=>${4:false}],['escape'=>${5:false},'class'=>'']);$0",
+        "description":"CakePHP: $this->Html->link()"
+    },
+    "image": {
+        "scope": "php",
+        "prefix": "image",
+        "body": "echo \\$this->Html->image('${1:nomfichier}', ['alt' => '${2:textalternatif}']);$0",
+        "description":"CakePHP: $this->Html->image()"
+    },
+    "url": {
+        "scope": "php",
+        "prefix": "url",
+        "body": "echo \\$this->Url->build(['controller'=>'${1:controller}', 'action'=>'${2:action}','prefix'=>${3:false}],true);$0",
+        "description":"CakePHP: $this->Url->build()"
+    },
+    "redirect": {
+        "scope": "php",
+        "prefix": "redirect",
+        "body": "return \\$this->redirect(['controller' => '${1:controller}', 'action' => '${2:action}']); exit();$0",
+        "description":"CakePHP: $this->redirect()"
+    },
     "create": {
         "scope": "php",
         "prefix": "create",

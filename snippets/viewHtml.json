@@ -11,6 +11,24 @@
         "body": "<?= \\$this->Flash->error('${1:Message}') ?>$0",
         "description":"CakePHP: (html)$this->Flash->error()"
     },
+    "link html": {
+        "scope": "php",
+        "prefix": "link",
+        "body": "<?= \\$this->Html->link('${1:link}',['controller'=>'${2:controller}', 'action'=>'${3:action}','prefix'=>${4:false}],['escape'=>${5:false},'class'=>'']) ?>$0",
+        "description":"CakePHP: (html)$this->Html->link()"
+    },
+    "image html": {
+        "scope": "php",
+        "prefix": "image",
+        "body":"<?= \\$this->Html->image('${1:nomfichier}', ['alt' => '${2:textalternatif}']) ?>$0",
+        "description":"CakePHP: (html)$this->Html->image()"
+    },
+    "url html": {
+        "scope": "php",
+        "prefix": "url",
+        "body":"<?= \\$this->Url->build(['controller'=>'${1:controller}', 'action'=>'${2:action}','prefix'=>${3:false}],true) ?>$0",
+        "description":"CakePHP: (html)$this->Url->build()"
+    },
     "create html": {
         "scope": "php",
         "prefix": "create",
