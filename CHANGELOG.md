@@ -1,3 +1,3 @@
 # Change Log
-## 0.01(1/31/2020)
+## 1.00(1/31/2020)
 - Initial release
