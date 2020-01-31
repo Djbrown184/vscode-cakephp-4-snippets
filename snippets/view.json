@@ -1,0 +1,26 @@
+{
+    "create": {
+        "scope": "php",
+        "prefix": "create",
+        "body": "echo \\$this->Form->create(${1:Model});$0",
+        "description": "CakePHP: $this->Form->create()"
+    },
+    "end": {
+      "scope": "php",
+      "prefix": "end",
+      "body": "echo \\$this->Form->end();$0",
+      "description": "CakePHP: $this->Form->end()"
+    },
+    "control": {
+        "scope": "php",
+        "prefix": "control",
+        "body": "echo \\$this->Form->control('${1:field}');$0",
+        "description":"CakePHP: $this->Form->control()"
+    },
+    "button": {
+        "scope": "php",
+        "prefix": "button",
+        "body": "echo \\$this->Form->button('${1:title}');$0",
+        "description": "CakePHP: $this->Form->button()"
+    }
+}

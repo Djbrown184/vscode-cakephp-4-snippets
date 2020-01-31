@@ -1,0 +1,33 @@
+{
+    "name": "cakephp-4-snippets",
+    "displayName": "CakePHP 4.x Snippets",
+    "description": "CakePHP 4.x Snippets",
+    "icon": "images/cakephp.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Djbrown184/vscode-cakephp-4-snippets"
+    },
+    "keywords": [
+        "CakePhp"
+    ],
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/viewHtml.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/view.json"
+            }
+        ]
+    },
+    "publisher": "Djbrown184"
+}
