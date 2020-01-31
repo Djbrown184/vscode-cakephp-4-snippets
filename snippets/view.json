@@ -1,4 +1,16 @@
 {
+    "success": {
+        "scope": "php",
+        "prefix": "success",
+        "body": "echo \\$this->Flash->success('${1:Message}');$0",
+        "description":"CakePHP: $this->Flash->success()"
+    },
+    "error": {
+        "scope": "php",
+        "prefix": "error",
+        "body": "echo \\$this->Flash->error('${1:Message}');$0",
+        "description":"CakePHP: $this->Flash->error()"
+    },
     "create": {
         "scope": "php",
         "prefix": "create",
